@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CodeHelp.Repository.Repository_Base
+namespace CodeHelp.Repository.Repository_Db
 {
     public class DbRepository
     {

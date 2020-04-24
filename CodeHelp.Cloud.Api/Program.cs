@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace CodeHelp.Cloud.Services
+namespace CodeHelp.Cloud.Api
 {
     public class Program
     {

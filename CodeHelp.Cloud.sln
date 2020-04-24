@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeHelp.Cloud.Services", "CodeHelp.Cloud.Services\CodeHelp.Cloud.Services.csproj", "{0C2BDB48-5CD9-4526-BEFD-778430A6DA6B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeHelp.Cloud.Business", "CodeHelp.Cloud.Business\CodeHelp.Cloud.Business.csproj", "{1D4636D2-3D26-4C2C-A8C4-A9D00D4245BF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeHelp.Cloud.Dto", "CodeHelp.Cloud.Dto\CodeHelp.Cloud.Dto.csproj", "{992650F3-4891-464A-A432-896876B634E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeHelp.Util", "CodeHelp.Util\CodeHelp.Util.csproj", "{EA01AD79-40A5-4108-A378-BFA440483A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeHelp.Util", "CodeHelp.Util\CodeHelp.Util.csproj", "{EA01AD79-40A5-4108-A378-BFA440483A1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeHelp.Repository", "CodeHelp.Repository\CodeHelp.Repository.csproj", "{863D8B8E-F183-423D-B678-307F989C3EBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeHelp.Repository", "CodeHelp.Repository\CodeHelp.Repository.csproj", "{863D8B8E-F183-423D-B678-307F989C3EBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeHelp.Interface", "CodeHelp.Interface\CodeHelp.Interface.csproj", "{2C8529DF-1B00-4F7B-B29D-A463CBF4B365}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeHelp.Interface", "CodeHelp.Interface\CodeHelp.Interface.csproj", "{2C8529DF-1B00-4F7B-B29D-A463CBF4B365}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeHelp.Console", "CodeHelp.Console\CodeHelp.Console.csproj", "{AFB0860A-E410-4A65-B453-1F5E2D5DF562}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeHelp.UnitTest", "CodeHelp.UnitTest\CodeHelp.UnitTest.csproj", "{BE051373-DAA1-42C7-92DA-6EF6E73A6130}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeHelp.Cloud.Api", "CodeHelp.Cloud.Api\CodeHelp.Cloud.Api.csproj", "{26670CC6-4E19-4A62-98A8-6EA3932DDD4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0C2BDB48-5CD9-4526-BEFD-778430A6DA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C2BDB48-5CD9-4526-BEFD-778430A6DA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C2BDB48-5CD9-4526-BEFD-778430A6DA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C2BDB48-5CD9-4526-BEFD-778430A6DA6B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D4636D2-3D26-4C2C-A8C4-A9D00D4245BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1D4636D2-3D26-4C2C-A8C4-A9D00D4245BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D4636D2-3D26-4C2C-A8C4-A9D00D4245BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,10 +43,14 @@ Global
 		{2C8529DF-1B00-4F7B-B29D-A463CBF4B365}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C8529DF-1B00-4F7B-B29D-A463CBF4B365}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C8529DF-1B00-4F7B-B29D-A463CBF4B365}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AFB0860A-E410-4A65-B453-1F5E2D5DF562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFB0860A-E410-4A65-B453-1F5E2D5DF562}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AFB0860A-E410-4A65-B453-1F5E2D5DF562}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AFB0860A-E410-4A65-B453-1F5E2D5DF562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE051373-DAA1-42C7-92DA-6EF6E73A6130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE051373-DAA1-42C7-92DA-6EF6E73A6130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE051373-DAA1-42C7-92DA-6EF6E73A6130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE051373-DAA1-42C7-92DA-6EF6E73A6130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26670CC6-4E19-4A62-98A8-6EA3932DDD4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26670CC6-4E19-4A62-98A8-6EA3932DDD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26670CC6-4E19-4A62-98A8-6EA3932DDD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26670CC6-4E19-4A62-98A8-6EA3932DDD4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
